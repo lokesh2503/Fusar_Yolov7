@@ -1,0 +1,13 @@
+path: 'D:\Yolov8\data'
+train: train/images
+val: validation/images
+
+nc: 6
+
+names:
+  0: Cargo\AggregatesCarrier
+  1: Cargo\BulkCarrier
+  2: Cargo\Cargo-HazardA
+  3: Cargo\Cargo-HazardB
+  4: Cargo\Cargo-HazardC
+  5: Cargo\Cargo-HazardD 
