@@ -1,13 +1,28 @@
-path: 'D:\Yolov8\data'
-train: train/images
-val: validation/images
+train: /content/Fusar_Yolov7/train.txt  # 118287 images
+val: /content/Fusar_Yolov7/val.txt  # 5000 images
+nc: 15                                                      # Number of classes (change according to your dataset)
+names: ["AggregatesCarrier","BulkCarrier","Cargo-HazardA","Cargo-HazardB","Cargo-HazardC","Cargo-HazardD","CargoShip","Cargo","DiveVessel","Dredger","Fishing","HighSpeedCraft","LawEnforce","Other","Passenger"]
 
-nc: 6
 
-names:
-  0: Cargo\AggregatesCarrier
-  1: Cargo\BulkCarrier
-  2: Cargo\Cargo-HazardA
-  3: Cargo\Cargo-HazardB
-  4: Cargo\Cargo-HazardC
-  5: Cargo\Cargo-HazardD 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
